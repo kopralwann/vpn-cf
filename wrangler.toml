@@ -5,13 +5,13 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "df.game.naver.com.vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.vpn.checker-ip.web.id", custom_domain = true },
-  { pattern = "cache.netflix.com.vpn.checker-ip.web.id", custom_domain = true },
+  { pattern = "pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "df.game.naver.com.pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.pro.kopralstore.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.pro.kopralstore.my.id", custom_domain = true },
 
   { pattern = "jamu.vpn-cf.xyz", custom_domain = true },
   { pattern = "ava.game.naver.com.free.vpn-cf.xyz", custom_domain = true },
@@ -24,7 +24,7 @@ routes = [
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "31e0673f59a74088b3c677189944dd80"
+id = "c598b08770654155ac40773492c1f0d5"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
@@ -34,6 +34,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/index.html"
-SUB_PAGE_URL  = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/index.html"
+SUB_PAGE_URL  = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/KopralProject/vpn-cf/refs/heads/master/web/link.html"
