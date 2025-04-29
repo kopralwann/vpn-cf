@@ -13,13 +13,13 @@ routes = [
   { pattern = "support.zoom.us.pro.kopralstore.my.id", custom_domain = true },
   { pattern = "cache.netflix.com.pro.kopralstore.my.id", custom_domain = true },
 
-  { pattern = "jamu.vpn-cf.xyz", custom_domain = true },
-  { pattern = "ava.game.naver.com.free.vpn-cf.xyz", custom_domain = true },
-  { pattern = "df.game.naver.com.free.vpn-cf.xyz", custom_domain = true },
-  { pattern = "graph.instagram.com.free.vpn-cf.xyz", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.free.vpn-cf.xyz", custom_domain = true },
-  { pattern = "support.zoom.us.free.vpn-cf.xyz", custom_domain = true },
-  { pattern = "cache.netflix.com.free.vpn-cf.xyz", custom_domain = true }
+  { pattern = "gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "df.game.naver.com.gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "graph.instagram.com.gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.gacor.kopralstore.my.id", custom_domain = true },
+  { pattern = "cache.netflix.com.gacor.kopralstore.my.id", custom_domain = true }
 ]
 
 [[kv_namespaces]]
