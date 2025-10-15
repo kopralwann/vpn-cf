@@ -1,30 +1,30 @@
-name = "kaisar"
+name = "seadanya"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.vip.kopralstore.my.id", custom_domain = true },
-  { pattern = "cache.netflix.com.vip.kopralstore.my.id", custom_domain = true },
+  { pattern = "donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "ava.gameka.naver.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.donghua.kaisaronline.web.id", custom_domain = true },
 
-  { pattern = "free.kopralstore.my.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "df.game.naver.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "graph.instagram.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "support.zoom.us.free.kopralstore.my.id", custom_domain = true },
-  { pattern = "cache.netflix.com.free.kopralstore.my.id", custom_domain = true }
+  { pattern = "jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.jebret.kaisaronline.web.id", custom_domain = true }
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "c598b08770654155ac40773492c1f0d5"
+id = "99f6323e5990426e8f8433d6bd9b8c9b"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
