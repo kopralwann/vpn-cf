@@ -16,7 +16,7 @@ routes = [
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "86850fea3b424ad0b4cedcdbb292969b"
+id = "80aa1e6ca60b415986bb332e7fc7e384"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
@@ -28,8 +28,8 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 UUID = "f282b878-8711-45a1-8c69-5564172123c1"
 
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/index.html"
-SUB_PAGE_URL  = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/link.html"
-CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/converter.html"
-CHECKER_PAGE_URL = "https://raw.githubusercontent.com/jaka2m/vpn-cf/refs/heads/master/web/checker.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/index.html"
+SUB_PAGE_URL  = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/link.html"
+CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/converter.html"
+CHECKER_PAGE_URL = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/checker.html"
