@@ -5,13 +5,13 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "ava.game.naver.com.joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "df.game.naver.com.joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "graph.instagram.com.joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "support.zoom.us.joss.checker-ip.xyz", custom_domain = true },
-  { pattern = "cache.netflix.com.joss.checker-ip.xyz", custom_domain = true }
+  { pattern = "vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "ava.game.naver.com.vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "df.game.naver.com.vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "graph.instagram.com.vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "support.zoom.us.vip.kaisarstore.dpdns.org", custom_domain = true },
+  { pattern = "cache.netflix.com.vip.kaisarstore.dpdns.org", custom_domain = true }
 ]
 
 [[kv_namespaces]]
