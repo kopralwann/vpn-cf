@@ -5,22 +5,23 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "ava.game.naver.com.vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "df.game.naver.com.vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "graph.instagram.com.vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "support.zoom.us.vip.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "cache.netflix.com.vip.kaisarstore.dpdns.org", custom_domain = true }
+  { pattern = "donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "ava.gameka.naver.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.donghua.kaisaronline.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.donghua.kaisaronline.web.id", custom_domain = true },
 
-  { pattern = "pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "ava.game.naver.com.pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "df.game.naver.com.pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "graph.instagram.com.pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "support.zoom.us.pro.kaisarstore.dpdns.org", custom_domain = true },
-  { pattern = "cache.netflix.com.pro.kaisarstore.dpdns.org", custom_domain = true }
+  { pattern = "jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "df.game.naver.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "support.zoom.us.jebret.kaisaronline.web.id", custom_domain = true },
+  { pattern = "cache.netflix.com.jebret.kaisaronline.web.id", custom_domain = true }
 ]
+
 
 [[kv_namespaces]]
 binding = "SIREN"
