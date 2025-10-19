@@ -35,7 +35,7 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 
-UUID = "f282b878-8711-45a1-8c69-5564172123c1"
+UUID = "4a9c5288-a519-4b6d-88f3-f934f6400e1b"
 
 MAIN_PAGE_URL = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/index.html"
 SUB_PAGE_URL  = "https://raw.githubusercontent.com/kopralwann/vpn-cf/refs/heads/master/web/sub.html"
